@@ -67,7 +67,7 @@ RUN python3 -m ensurepip \
 #
 # Clone repo and prepare working directory
 #
-RUN git clone https://github.com/RacingDNaUnleashed/spyderzz/userbot
+RUN git clone https://github.com/RacingDNaUnleashed/spyderzz /root/userbot
 RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
 
