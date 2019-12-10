@@ -268,7 +268,7 @@ async def unblockpm(unblock):
         replied_user = await unblock.client.get_entity(reply.from_id)
         name0 = str(replied_user.first_name)
         await unblock.client(UnblockRequest(replied_user.id))
-        await unblock.edit("`You have been unblocked chadarmood. Now suxk `Racing_DNA_Unleasged`s Dixk.`")
+        await unblock.edit("`You have been unblocked chadarmood. Now suxk `@Racing_DNA_Unleashed's Dixk.`")
 
     if BOTLOG:
         await unblock.client.send_message(
