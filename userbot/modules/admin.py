@@ -700,7 +700,7 @@ async def pin(msg):
         await msg.edit(NO_PERM)
         return
 
-    await msg.edit("`Pinned SuckSexfully by peru sar🔥 `@Racing_DNA_Unleashed`")
+    await msg.edit("`Pinned SuckSexfully by peru sar🔥 `@Racing_DNA_Unleashed")
 
     user = await get_user_from_id(msg.from_id, msg)
 
